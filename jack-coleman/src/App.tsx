@@ -13,6 +13,7 @@ import ServiceDetail from './components/ServiceDetail';
 import Contact from './components/Contact';
 import ServicesPage from './components/ServicesPage';
 import ClientsPage from './components/ClientsPage';
+import VideoScrollSequence from './components/VideoScrollSequence';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
               <>
                 <Hero />
                 <Services />
+                <VideoScrollSequence />
                 <Projects />
                 <Clients />
                 <CTA />
